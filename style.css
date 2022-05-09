@@ -1,0 +1,35 @@
+
+
+.text-box{
+
+    color: #555;
+    position: absolute;
+    bottom: 8%;
+
+}
+.text-box p{
+   font-size: 50px;
+   font-weight: 600; 
+}
+.text-box h1{
+font-size: 190px;
+line-height: 160px;
+margin-left: -10;
+color: transparent;
+-webkit-text-stroke: 1px #555;
+background: url(file:///C:/Users/Administrator/Desktop/project/css/me.jpg);
+-webkit-background-clip: text;
+background-position: 0 0;
+animation: back 20s linear infinite;
+
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+    
+}
+.text-box h3{
+    font-size: 40px;
+    font-weight: 500;
+}
