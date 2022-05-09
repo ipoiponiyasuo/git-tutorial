@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div class="text-box">
-<p>hi</p>
-<h1>im</h1>
-<h3>jansen</h3>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+<header>
+<section>
+        <img src="D:\New folder (5)\stars.png" id="stars">
+        <img src="D:\New folder (5)\moon.png" id="moon">
+        <img src="D:\New folder (5)\mountains_behind.png" id="mountains_behind">
+        <h2 style="font-size: 250px" id="text">i'm programmer</h2>
+        <img src="D:\New folder (5)\mountains_front.png" id="mountains_front">
+        
+
+ </section>
+ <div class="sec">
+    <h2>asdsadasdasddddddddddddddadasdsaasdsadasdasddddddddddddddadasdsa</h2>
+
+    
+     </div>>
+     <script>
+         let stars = document.getElementById('stars');
+         let moon = document.getElementById('moon');
+         let mountains_behind = document.getElementById('mountains_behind');
+         let text = document.getElementById('text');
+         let mountains_front = document.getElementById('mountains_front');
+
+         window.addEventListener('scroll',function(){
+             let value = window.scrollY;
+             stars.style.left = value * 0.25 + 'px';
+             moon.style.top = value * 1.05 + 'px';
+         })
+
+     </script>
+</header>
 </body>
 </html>
