@@ -43,10 +43,24 @@ position: relative;
 padding: 100px;
 background: #2b1055;
 }
+.me{
+
+    clip-path: circle();
+    border-radius: 50%;
+    border: 12px solid #fff
+}
+
+
 .sec h2{
     font-size: 3.5cm;
     margin-bottom: 10px;
     color:#fff;
+
+}
+.li{
+    list-style: none;
+    color: #fff;
+    transition: .5s;
 
 }
 
